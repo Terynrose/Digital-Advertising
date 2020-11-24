@@ -3,14 +3,12 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(GSDevTools);
 
-import {logoAnimation} from "./logo.js"
-import {revealAnimation} from "./dash.js"
+import {titleAnimation} from "./title.js"
 
 
 
 const mainTL = gsap.timeline();
-mainTL.add(logoAnimation()); 
-mainTL.add(revealAnimation()); 
+mainTL.add(titleAnimation()); 
 
 
 GSDevTools.create();
