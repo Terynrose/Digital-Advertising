@@ -125,14 +125,29 @@ titleTL.from("#box", {duration: 1, drawSVG: "0%"})
         .from("#n-hunt", {duration:.01, alpha: 0}, "hunt")
         .from("#t-hunt", {duration:.01, alpha: 0}, "hunt")
         .from("#t2-hunt", {duration:.01, alpha: 0}, "hunt")
-        .from("#ts1", {duration: 2, drawSVG: "0%", ease: "none"}, "s1")
+        .from("#ts1", {duration: 1, drawSVG: "0%", ease: "none"}, "s1")
         .from("#ts2", {duration: .75, drawSVG: "0%", ease: "none"}, "s2")
-        .from("#s1", {duration: 2, drawSVG: "0%", ease: "none"}, "s1")
+        .from("#s1", {duration: 1, drawSVG: "0%", ease: "none"}, "s1")
         .from("#s2", {duration: 1, drawSVG: "0%", ease: "none"}, "s2")
-        .from("#s3", {duration: 1, drawSVG: "0%", ease: "none"}, "s3")
-        .from("#s4", {duration: 1, drawSVG: "0%", ease: "none"}, "s4")
-        .from("#black", {duration: 2, alpha: 0}, "s3")
+        .from("#s3", {duration: .5, drawSVG: "0%", ease: "none"}, "s3")
+        .from("#s4", {duration: .25, drawSVG: "0%", ease: "none"}, "s4")
+        .from("#black", {duration: 1, alpha: 0}, "s3")
 
+
+        // Zoom
+        .to("#title", {duration: 2, scale: 2, transformOrigin: "center", x: 250, y:220},"title-zoom")
+        .to("#title-streaks", {duration: 2, scale: 2, transformOrigin: "center", x: 190, y: 40}, "title-zoom")
+        .to("#red-title", {duration: 2, scale: 2, transformOrigin: "center", x: 313, y:208, alpha: 0},"title-zoom")
+        .from("#author", {duration: 1, alpha: 0})
+        .to("#the", {duration: 1.5, alpha: 0}, "title-zoom")
+        .to("#ress", {duration: 1.5, alpha: 0}, "title-zoom")
+
+
+        // Fade & Glitch
+        .to("#title", {delay: .25, duration: .5, alpha: 0})
+        .to("#red-title", {delay: .7, duration: .01, alpha: 1})
+        .to("#red-title", {duration: .02, alpha: 0}, "end")
+        .to("#author", {duration: .02, alpha: 0}, "end")
 
 
 
