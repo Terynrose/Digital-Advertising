@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "C086D248-1114-432F-B049-A7DA65EA5409"
+		"uuidString": "0AE7C118-56E6-4285-8C11-D179F538E479"
 		}
 	],
 "creatorBuild": "32137",
@@ -18,61 +18,6 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/deploy/img/4141.jpg": {
-		"ft": 16384,
-		"iS": 104961,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/4141.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/cards.jpg": {
-		"ft": 16384,
-		"iS": 152155,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/cards.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/letterpress.jpg": {
-		"ft": 16384,
-		"iS": 84293,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/letterpress.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/main_slide_21.jpg": {
-		"ft": 16384,
-		"iS": 1423110,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/main_slide_21.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/sign.jpg": {
-		"ft": 16384,
-		"iS": 139189,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/sign.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -93,12 +38,28 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/footer.kit": {
+	"/dev/content/dash.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/footer.html",
+		"oAP": "/dev/content/dash.html",
+		"oF": 0
+		},
+	"/dev/global/head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head.html",
+		"oF": 0
+		},
+	"/dev/global/scripts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -109,14 +70,36 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/scripts.js": {
+	"/dev/js/dash.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dash-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/logo.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/deploy/js/demo-min.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scripts.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -250,7 +233,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_footer.scss": {
+	"/dev/scss/sections/_dash-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -258,12 +241,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_footer.css",
+		"oAP": "/dev/scss/sections/_dash-container.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_section-1.scss": {
+	"/dev/scss/sections/_demo.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -271,33 +254,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_section-2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-2.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_section-3.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-3.css",
+		"oAP": "/dev/scss/sections/_demo.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -315,48 +272,68 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/section-1.kit": {
+	"/gsap-bonus.tgz": {
 		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-1.html",
-		"oF": 0
-		},
-	"/dev/section-2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-2.html",
-		"oF": 1
-		},
-	"/dev/section-3.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-3.html",
-		"oF": 1
-		},
-	"/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/README.html",
+		"oAP": "/gsap-bonus.tgz",
+		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
 		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
@@ -364,10 +341,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 611622039.20414901,
-	"displayValue": "Digital-Advertising",
+	"creationDate": 622561353.46572006,
+	"displayValue": "Teryn-Motion-Demo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-peach",
+	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -806,11 +783,11 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -886,7 +863,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1834,7 +1811,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,

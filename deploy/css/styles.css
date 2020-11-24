@@ -352,9 +352,47 @@ template {
 /* =============
     Base
 ============= */
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-areas: ". grid-content .";
+  grid-template-columns: 15px auto 15px;
+  height: 100vh;
+}
+@media (min-width: 1200px) {
+  .container-grid {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+.container-grid > div {
+  grid-area: grid-content;
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -385,123 +423,22 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Section 1
-============= */
-#section-1 {
-  background-image: url("../img/main_slide_21.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 560px;
+#dashboard-container {
   display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-1 .";
-  padding: 80px 0;
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". dash .";
 }
-#section-1 > div {
-  grid-area: section-1;
-  text-align: center;
+#dashboard-container > div {
+  grid-area: dash;
+  position: relative;
 }
-#section-1 > div h1 {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 2.5rem;
-  color: #1A4B58;
-  margin: 0;
-}
-#section-1 > div p {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1.5rem;
-  color: #338595;
-  margin: 0;
-}
-#section-1 > div h2 {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1.75rem;
-  color: #fff;
-  margin: 300px 150px;
-  border: 3px solid;
-  border-color: #fff;
-  border-radius: 100px;
-  padding: 70px 0;
+#dashboard-container > div .svgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* =============
-    Section-2
-============= */
-#section-2 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-2 .";
-}
-#section-2 > div {
-  grid-area: section-2;
-  padding: 40px 0;
-}
-#section-2 > div h1 {
-  text-align: center;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 3.125rem;
-  font-weight: 900;
-  margin: 0;
-}
-#section-2 > div p {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1rem;
-  width: 480px;
-}
-#section-2 img {
-  position: flex;
-  width: 480px;
-  position: center;
-}
-
-/* =============
-    Section 3
-============= */
-#section-3 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-2 .";
-}
-#section-3 h1 {
-  text-align: center;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 3.125rem;
-  font-weight: 900;
-  margin: 0;
-}
-#section-3 h2 {
-  text-align: left;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1.25rem;
-  width: 480px;
-  font-weight: 800;
-  background-color: #ECECEC;
-  background-position: cover;
-  margin: 10px;
-}
-#section-3 p {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1rem;
-  width: 480px;
-  background-color: #ECECEC;
-  background-position: cover;
-  margin: 10px;
-}
-#section-3 h5 {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 0.75rem;
-  width: 480px;
-  background-color: #ECECEC;
-  background-position: cover;
-  margin: 10px;
-}
-#section-3 #section-3-first img {
-  position: flex;
-  width: 480px;
-  position: center;
-}
-
-/* =============
-    Footer
+    Demo
 ============= */
